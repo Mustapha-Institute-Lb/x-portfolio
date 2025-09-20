@@ -1,4 +1,4 @@
-title: Fname Lname
+name: Fname Lname
 bio: "Software engineer passionate about building clean and impactful web applications."
 email: "example@email.com"
 face: "assets/face.png"
@@ -13,3 +13,11 @@ collections:
     output: true
   skills:
     output: true
+
+
+
+
+
+
+
+
