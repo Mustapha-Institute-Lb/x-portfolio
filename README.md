@@ -75,6 +75,6 @@ It is designed to be clean, responsive, and easy to maintain.
    ```
 
    Then open your browser at `http://localhost:4000`.
-4. To change name, bio, or social links edit the _config.yaml file. 
+4. To change name, bio, or social links edit the _config.yml file. 
 5. To add a new project: create a new Markdown file in `_projects/` with front matter (title, description, tags, image, link).  
 6. To add a new skill: add a new Markdown file in `_skills/` with front matter (name, percent, [color if used]).
