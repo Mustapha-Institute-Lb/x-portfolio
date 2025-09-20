@@ -1,0 +1,19 @@
+<script>
+const animateSkillBars = () => {
+    const bars = document.querySelectorAll('.skill-bar span');
+
+    bars.forEach(bar => {
+        const width = bar.getAttribute('data-width');
+        if (!width) return;
+
+        bar.style.width = '0';
+        bar.style.transition = 'width 1.5s ease-in-out';
+
+        requestAnimationFrame(() => {
+            bar.style.width = width;
+        });
+    });
+};
+
+window.addEventListener('load', animateSkillBars);
+</script>

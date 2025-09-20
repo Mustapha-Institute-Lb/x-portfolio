@@ -1,0 +1,12 @@
+<header>
+    <img src="{{ site.face }}" alt="User Image">
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.bio }}</p>
+    <div class="social-icons">
+        {% if site.social.github %}<a href="{{ site.social.github }}"><i class="fab fa-github"></i></a>{% endif %}
+        {% if site.social.linkedin %}<a href="{{ site.social.linkedin }}"><i class="fab fa-linkedin"></i></a>{% endif %}
+        {% if site.social.x %}<a href="{{ site.social.x }}"><i class="fab fa-x"></i></a>{% endif %}
+        {% if site.social.medium %}<a href="{{ site.social.medium }}"><i class="fab fa-medium"></i></a>{% endif %}
+        {% if site.email %}<a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i></a>{% endif %}
+    </div>
+</header>

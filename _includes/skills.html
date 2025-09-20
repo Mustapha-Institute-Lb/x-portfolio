@@ -1,0 +1,11 @@
+<section class="skills">
+    <h2>My Skills</h2>
+    <div class="skill-container">
+        {% for skill in site.skills %}
+        <div class="skill">
+            <label>{{ skill.name }}</label>
+            <div class="skill-bar"><span data-width="{{ skill.percent }}%" style="background: {{ skill.color }}"></span></div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

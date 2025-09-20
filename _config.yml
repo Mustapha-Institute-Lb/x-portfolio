@@ -1,0 +1,15 @@
+title: Fname Lname
+bio: "Software engineer passionate about building clean and impactful web applications."
+email: "example@email.com"
+face: "assets/face.png"
+social:
+  github: "https://github.com/username"
+  linkedin: "https://linkedin.com/in/username"
+  x: "https://x.com/username"
+  medium: "https://medium.com/@username"
+
+collections:
+  projects:
+    output: true
+  skills:
+    output: true
