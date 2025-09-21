@@ -10,9 +10,7 @@ social:
 
 collections:
   projects:
-    output: true
   skills:
-    output: true
 
 
 
